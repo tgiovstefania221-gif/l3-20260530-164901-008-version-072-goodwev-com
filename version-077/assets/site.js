@@ -1,0 +1,1 @@
+(function(){const b=document.querySelector("[data-mobile-toggle]"),n=document.querySelector("[data-mobile-nav]");if(b&&n)b.addEventListener("click",()=>{n.classList.toggle("open");b.setAttribute("aria-expanded",n.classList.contains("open")?"true":"false")})})();
